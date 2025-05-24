@@ -1,0 +1,34 @@
+.footer {
+  color: aliceblue;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: bisque;
+  margin-top: 300px;
+  border: 1px solid black;
+  gap: 15px;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.footer-info {
+  max-width: 300px;
+  margin: 30px;
+}
+
+.footer-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1a4e80;
+}
+.footer-info p,
+.footer-info li {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.footer-info ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
